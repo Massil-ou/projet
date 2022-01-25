@@ -28,5 +28,7 @@ switch (new Date().getDay()) {
     break;
   case 6:
     day = "Samedi";
+  case 7:
+    day = "massil";
 }
 console.log("Aujourd'hui nous sommes " + day);
